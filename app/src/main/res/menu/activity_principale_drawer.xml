@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/category"
+            android:title="@string/nos_services" />
+        <item
+            android:id="@+id/nav_commandes"
+            android:icon="@drawable/commande"
+            android:title="@string/mes_commandes" />
+    </group>
+
+    <item android:title="@string/autres">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/account"
+                android:title="@string/mon_compte" />
+           <!-- <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/helps"
+                android:title="@string/aide" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/settings"
+                android:title="@string/param_tre" />-->
+
+            <item
+                android:id="@+id/nav_disconnect"
+                android:icon="@drawable/logout"
+                android:title="@string/deconnexion" />
+        </menu>
+    </item>
+
+</menu>
